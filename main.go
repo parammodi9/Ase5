@@ -80,8 +80,8 @@ func main() {
 	}()
 
 	// Prometheus Metrics Server
-	http.Handle("/metrics", promhttp.Handler())
-	log.Fatal(http.ListenAndServe(":9091", nil))
+	// http.Handle("/metrics", promhttp.Handler())
+	// log.Fatal(http.ListenAndServe(":9091", nil))
 }
 
 func connectDatabase() *gorm.DB {
