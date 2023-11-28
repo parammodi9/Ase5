@@ -9,9 +9,9 @@ import (
 	"net/http"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	// "github.com/prometheus/client_golang/prometheus"
+	// "github.com/prometheus/client_golang/prometheus/promauto"
+	// "github.com/prometheus/client_golang/prometheus/promhttp"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
