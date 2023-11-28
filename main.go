@@ -76,7 +76,7 @@ func main() {
 
 	// Run Fiber App in a Goroutine
 	go func() {
-		log.Fatal(app.Listen(":3000"))
+		log.Fatal(app.Listen(":8080"))
 	}()
 
 	// Prometheus Metrics Server
